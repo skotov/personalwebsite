@@ -1,0 +1,405 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Sophia Kotov's Homepage</title>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/custom.css">
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="stylesheet" href="static/custom.css">
+    <link rel="stylesheet" src="http://normalize-css.googlecode.com/svn/trunk/normalize.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="SHORTCUT ICON" href="favicon.ico"/>
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="tracker_data.js"></script>
+
+</head>
+
+<body>
+
+<nav class="navbar-fixed-top">
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href="http://www-personal.umich.edu/~kotova/"><span>Sophia Kotov</span></a></li>
+   <li><a href='#about'><span>About Me</span></a></li>
+   <li><a href='#projects/'><span>Projects</span></a></li>
+   <li class='last'><a href="#resume/"><span>Resume</span></a></li>
+</ul>
+</div>
+</nav>
+
+<div class="page-wrap"> 
+<!-- main -->
+
+<section id="main">
+  <span style="font-size: 80px;">
+	<h1>Hello, World! I'm <br>
+    <span style="font-size: 150px; font-family: 'Pacifico';"><a href="http://www-personal.umich.edu/~kotova/">Sophia</a></span></h1>
+  </span>
+</section>
+
+<!-- about me -->
+
+<section id="about">
+<div class="row"> 
+		<div class="col-xs-12 col-sm-6">
+				<center>
+            <img src="http://i.imgur.com/6IbvtoA.jpg" alt="photo of me" class="img-rounded" id="myImage">
+        </center>
+		</div>
+		<div class="col-xs-12 col-sm-6">
+        <center>
+            <span style="font-size: 47px; font-family: 'Pacifico';">Sophia Kotov<br></span>
+            <span style="font-size: 25px; font-family: 'Pacifico'"><br>University of Michigan 2016</span><br>
+              Computer Science<br>
+              Women's Studes<br>
+              German<br>
+              <br>
+            <span style="font-size: 25px; font-family: 'Pacifico'">Interests</span><br>
+              Tennis, morning runs, and well-styled code
+        </center>
+    </div>    
+		
+</div>
+</section>
+
+<!-- projects -->
+
+<section id="projects">
+    <h2><center>My Projects</center></h2>
+    <br>
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div id="proj1" class="proj">
+                <br>
+                <a href="https://webschedulerapp.herokuapp.com">
+                <img class="thumbnail" src="http://i.imgur.com/jKGsf6n.png" alt="Web Scheduler Screenshot" style="width:300px;height:120px;border:5px;"></a>
+                    <div class="caption">
+                        <a href="https://webschedulerapp.herokuapp.com"><h3>Course Scheduler</h3></a>
+                        <p>This website accesses the University of Michigan course guide API to pull data on UM course listings in real time. In addition, the website allows users to search for specic courses and displays course location using the Google Maps API. This website was created as the final project in my introductory programming class, EECS 183.</p>
+                        <p><center><a href="https://webschedulerapp.herokuapp.com" class="btn btn-default btn-lg" role="button">Check it Out</a></center></p>
+                    </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div id="proj2" class="proj">
+                <img src="..." alt="...">
+                    <div class="caption">
+                        <h3>Honors Thesis in Women's Studies</h3>
+                        <p>I'm writing an honors thesis in the department of Women's Studies this year. I'm curious about how individuals choose to label their non-monogamous relationships, how these labels are perceived by others, and how these perceptions are impacted by the subject's gender. The project is titled <b>Alternatives to Monogamy: Self-Labeling, Actual Practice, and What Happens in the Interstices</b>. I have an accompanying website describing the project coming soon!</p>
+                        <p><center><a href="#" class="btn btn-default btn-lg disabled" role="button">Check it Out</a></center></p>
+                    </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div id="proj3" class="proj">
+                <img src="..." alt="...">
+                    <div class="caption">
+                        <h3>Computerized Work Manager</h3>
+                        <p>Coming Soon!</p>
+                        <p><center><a href="#" class="btn btn-default btn-lg disabled" role="button">Check it Out</a></center></p>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- resume -->
+
+<section id="resume">
+    <h2><center><a href="kotov_resume.pdf">Resume</a></center></h2>
+  <div class="row">
+    <div class="col-xs-6 col-md-4 col-md-offset-2">
+    
+      <center>
+        <h3>Languages</h3>
+         <table role="presentation">
+          <tr>
+            <td>German</td>
+            <td class="star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+          </tr>
+          <tr>
+            <td>Russian</td>
+            <td class="star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></td>
+          </tr>
+          <tr>
+            <td>Spanish</td>
+            <td class="star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></td>
+          </tr>
+          <tr>
+            <td>Arabic</td>
+            <td class="star"><i class="fa fa-star"><i class="fa fa-star-half-o"></i></td>
+          </tr>
+          <tr>
+            <td>C++</td>
+            <td class="star"><i class="fa fa-star"><i class="fa fa-star"><i class="fa fa-star"></i></td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td class="star"><i class="fa fa-star"></td>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td class="star"><i class="fa fa-star"><i class="fa fa-star"><i class="fa fa-star"></td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td class="star"><i class="fa fa-star"><i class="fa fa-star"><i class="fa fa-star"></td>
+          </tr>
+         </table>
+        </center>
+
+      <center><h3>Achievements</h3></center>
+          <table role="presentation">
+            <tr>
+              <td>
+                <i class="fa fa-trophy" class="trophy" style="color: #EF906E;"></i>
+              </td>
+              <td class="customBullet">
+                <b>Law School Admissions Test</b> - 94th percentile score (167)
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <i class="fa fa-trophy" class="trophy"></i>
+              </td>
+              <td class="customBullet">
+                <a href="https://www.pbk.org/web" target="_blank">
+                  <b>Phi Beta Kappa</b>
+                </a> 
+                Honors Society Member
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <i class="fa fa-trophy" class="trophy"></i>
+              </td>
+              <td class="customBullet">
+                <b>Honors Thesis</b> in Women's Studies in progress
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <i class="fa fa-trophy" class="trophy"></i>
+              </td>
+              <td class="customBullet">
+                <a href="https://www.lsa.umich.edu/students/academicsrequirements/honorsawards/universityhonors/angellscholars" target="_blank">
+                  <b>James B. Angell Scholar</b>
+                </a> 
+                - awarded for receiving only A's for four consecutive semesters
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <i class="fa fa-trophy" class="trophy"></i>
+              </td>
+              <td class="customBullet">
+                <a href="https://www.lsa.umich.edu/german/undergrad/awardsscholarshipsprizes" target="_blank">
+                  <b>Bronsom Thomas Award</b>
+                </a> 
+                for German essay writing
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <i class="fa fa-trophy" class="trophy"></i>
+              </td>
+              <td class="customBullet">
+                <a href="http://maxkadefoundation.org/category_grants.html" target="_blank">
+                  <b>Max Kade Scholarship</b>
+                </a> for excellence in German
+              </td>
+            </tr>
+          </table>
+
+      <center><h3>Education</h3></center>
+         <span class="title">University of Michigan</span> <span class="subtitle"> class of 2016<br>
+         <p>Computer Science, Women's Studies, and German</span></p></span>
+         <br>
+         <span class="title">Albert-Ludwigs Universität Freiburg</span><br>
+         <span class="subtitle"><p>Year Abroad: German Language and Literature</p></span> 
+    </div>
+    <div class="col-xs-6 col-md-4">
+      <p>
+         <center><h3>Experience</h3></center>
+         <p><b><span class="title">Technical Writer - <a href="http://www.deque.com/" target="_blank">Deque Systems</a></span></b><br>
+          <span class="subtitle">Summer 2015</span></p>
+         <ul>
+            <li>Wrote documentation on products that test for accessibility in websites and mobile apps</li>
+            <li>Gained experience with HTML, Javascript, automated testing frameworks, content management systems, markdown</li>
+            <li>Extensively trained and worked in tandem with newly-hired technical writer</li>
+            <li>Wrote over 100 pages of technical documentation for audiences with a wide range of technical knowledge</li>
+         </ul>
+
+         <p><b><span class="title">President - <a href="http://www.icc.coop/prospective/houses/minnies.php" target="_blank">Minnie's Cooperative House</a></span></b><br>
+          <span class="subtitle">Fall 2014 - Spring 2015</span></p>
+         <ul>
+            <li>Managed a team of 16 hours officers and 50 house members</li>
+            <li>Performance rated at 9.5 out of 10 by house members</li>
+            <li>Founding member of forum for all Ann Arbor area house presidents</li>
+            <li>Updated house constitution with banning policy unique to any cooperative house in Ann Arbor</li>
+            <li>Nominee for <a href="http://www.icc.coop/index.php" target="_blank">Inter-Cooperative Council</a> President</li>
+         </ul>
+
+         <p><b><span class="title">President - <a href="https://maizepages.umich.edu/organization/studentsforchoice" target="_blank">Students for Choice</a></span></b><br>
+          <span class="subtitle">Fall 2013 - Spring 2014</span></p>
+         <ul>
+            <li>Led and mentored team of six board members and 30 general members</li>
+            <li>Chaired the organization of and budgeting for 15 education events, performances, panels</li>
+            <li>Raised over $6000 in grants and awards</li>
+            <li>Established partnership with <a href="http://www.umich.edu/~umsfl/" target="_blank"></a><i>Students for Life</i>, implemented long-term goals of the partnership</li>
+            <li><a href="http://www.lsa.umich.edu/women/aboutus/news/ci.studentsforchoicereceivesthe2014feministpracticeawardwed23apr2014_ci.detail"><i>Feminist Practice Award</i></a> awarded to the organization by the <a href="https://www.lsa.umich.edu/women/" target="_blank">Umich Women's Studies Department</a></li>
+         </ul>
+
+      </p>
+      <p>
+        <center><h3>Writing</h3></center>
+        <p>My Writing About Other People</p>
+        <ul>
+          <li>Thesis in Women's Studies (coming soon)</li>
+          <li>
+            <a href="http://www.michigandaily.com/opinion/05viewpoint-feminist-theory-growth15" target="_blank">
+              Viewpoint: A Feminist Theory on Growth
+            </a>
+          </li>
+          <li>
+            <a href="http://www.michigandaily.com/blog/podium/sophias-study-blog-mind-tourist-gap" target="_blank">
+              Mind the Tourist Gap
+            </a>
+          </li>
+        </ul> 
+        
+        <p>Other People Writing About Me</p>
+        <ul>
+          <li>
+            <a href="http://www.hillsdalecollegian.com/2014/04/the-other-side-of-the-abortion-debate/" target="_blank">
+              The Other Side of the Abortion Debate
+            </a>
+          </li>
+          <li>
+            <a href="http://www.michigandaily.com/news/student-parents-find-support-new-website" target="_blank">
+              On the collaboration between Students for Choice and Students for Life
+            </a>
+          </li>
+          <li>
+            <a href="http://www.michigandaily.com/blog/wire/pro-choice-and-pro-life-groups-protest-diag" target="_blank">
+              Pro Choice and Pro Life Groups Protest on the Diag
+            </a>
+          </li>
+
+        </ul>
+      </p>
+    </div>
+  </div>
+
+  <br>
+  
+  <div id="resumeLink">
+    <center>
+        <b><a href="kotov_resume.pdf" target="_blank">Click here for a .pdf version <i class="fa fa-file-pdf-o"></i></a><b>
+    </center>
+  </div>
+
+</section>
+
+<section id="trackerData">
+  <h2><center>Fitbit Stats</center></h2>
+  
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <p>You won't catch me leaving the house without my Fitbit. In an effort to motivate myself even further to be active, I'm making some of my basic Fitbit data public accessible using the Fitbit API.</p>
+        <p>
+          <center>
+            <span style="font-family: 'Pacifico'; font-size: 28px;">Coming Soon!</span>
+          </center>
+        </p>
+      </div>
+    </div>
+
+    
+
+  
+</section>
+
+</div>
+
+</body>
+
+<footer class="myFooter">
+	<div id="footerText">
+		<center>
+      © 2015  <a href="http://www-personal.umich.edu/~kotova/"><span style="font-size: 20px;">Sophia Kotov</span></a>
+        &nbsp;
+        <a href="mailto:kotova@umich.edu">
+          <i class="fa fa-envelope-o" style="font-size: 28px; color: #F8A37E;"></i>
+        </a>
+        &nbsp;
+        <a href="https://www.facebook.com/sonya.kotova" target="_blank">
+          <i class="fa fa-facebook-square" style="font-size: 28px; color: #F8A37E;"></i>
+       </a>
+        &nbsp;
+        <a href="https://plus.google.com/u/1/+SophiaKotov/about" target="_blank">
+          <i class="fa fa-google-plus" style="font-size: 28px; color: #F8A37E;"></i>
+        </a>
+        &nbsp;
+        <a href="https://instagram.com/sonyacatqueen/" target="_blank">
+          <i class="fa fa-instagram" style="font-size: 28px; color: #F8A37E;"></i>
+        </a>
+        &nbsp;
+        <a href="https://github.com/skotov" target="_blank">
+          <i class="fa fa-github" style="font-size: 28px; color: #F8A37E;"></i>
+        </a>
+        &nbsp;
+        <a href="https://www.linkedin.com/in/sophiakotov" target="_blank">
+          <i class="fa fa-linkedin-square" style="font-size: 28px; color: #F8A37E;"></i>
+        </a>
+
+    </center>
+	</div>
+  <div>
+    <center>
+      <p>
+        
+      </p>
+    </center>
+  </div>
+</footer>
+</html>
+
+<script>
+
+var apiKey = "4a72235bd9d300a54091398f3d59cef9";
+
+var lifetimeStats = new XMLHttpRequest();
+lifetimeStats.open("GET", "https://api.fitbit.com/1/user/[229VDW]/activities.json", false);
+lifetimeStats.send();
+document.getElementById("data".innerHTML = (lifetimeStats.status);
+//console.log(lifetimeStats.statusText);
+
+//lifetimeStatsText = JSON.parse(lifetimeStats.responseText);
+//document.getElementById("data").innerHTML = lifetimeStatsText.best[0].total[0].caloriesOut[0].value;
+
+//document.getElementById("data").innerHTML = lifetimeStats.
+//var text = '{"employees":[' +
+//'{"firstName":"John","lastName":"Doe" },' +
+//'{"firstName":"Anna","lastName":"Smith" },' +
+//'{"firstName":"Peter","lastName":"Jones" }]}';
+
+//document.getElementById("data").innerHTML =
+//obj.employees[1].firstName + " " + obj.employees[1].lastName;
+</script>
+
