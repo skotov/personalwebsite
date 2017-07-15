@@ -1,0 +1,25 @@
+#sitecontent{
+    margin-left:-20px;
+}
+
+.outer {
+     
+    height: 100%;
+    width: 100%;
+}
+
+.mid {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#abs {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}

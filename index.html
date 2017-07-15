@@ -6,7 +6,8 @@
   Download the semantic library here: 
   http://semantic-ui.com/introduction/getting-started.html
   -->
-	<link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">  
+    <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css"> 
+    <link rel="stylesheet" type="text/css" href="static/style.css"> 
 </head>
 
 <script>
@@ -35,25 +36,23 @@ function updateContent(currentElement) {
 </script>
 
 <body>
-    <div class="ui stackable grid container">
+     <div class="ui stackable grid container">
         <div class="sixteen wide column"></div>
         <div class="sixteen wide column"></div>
-        <div class="two wide column"></div>
-        <div class="four wide column">
+        <div class="one wide column"></div>
+        <div class="six wide column">
+        
         <!-- Sidebar code begin -->
-            <div class="ui visible inverted vertical menu ">
+            <div class="ui visible inverted vertical menu">
             <div class="ui inverted segment">
                 <img class="ui medium circular image centered" src="img/profilepic.jpg">
             </div>
                 <a id="about" class="item active" onclick="updateContent(this)">
-                <i class="user icon"></i>About Me
-                </a>
+                <i class="user icon"></i>About Me</a>
                 <a id="projects" class="item" onclick="updateContent(this)">
-                <i class="code icon"></i>Projects
-                </a>
+                <i class="code icon"></i>Projects</a>
                 <a id="photo" class="item" onclick="updateContent(this)">
-                <i class="camera retro icon"></i>Photography
-                </a>
+                <i class="camera retro icon"></i>Photography</a>
                 <div class="item">
                 Contact
                 <div class="menu">
@@ -66,31 +65,40 @@ function updateContent(currentElement) {
                     </div>
                 </div>
                 </div>
-        
             </div>    
         <!-- Sidebar code end -->  
         </div>
-        <div class="eight wide column">
-            <!-- Application content begin -->
-            <div class="ui basic segment">
-              
+        <div class="six wide column">
+          
+            <div  id="currentcontent">
+          <!-- Site content begin -->
+          <!-- About Me begin -->
               <div id="aboutme" class="content" style="visibility: visible;">
-                <h3>About Me</h3>      
-              </div>
+                <div class="ui orange large segment">
+                    <p>Hey there! I’m a recent graduate of the University of Michigan with majors in Computer Science, 
+                    Women's Studies, and German.</p>
+                    <p> Some of my favorite things are morning runs, iced coffee, and online courses. 
+                    My hobbies include photography, tennis, and yoga.</p>
+                </div>
+              
+            
+            </div>
+          <!-- About Me end -->
+          <!-- Projects begin -->
               <div id="projects" class="content" style="visibility: hidden;">
-                  <h3>How I fill my spare time</h3>
+                  <h3>Projects How I fill my spare time</h3>
               </div>
+          <!-- Projects end -->
+          <!-- Photography begin -->
               <div id="photography" class="content" style="visibility: hidden;">
                    <h3>More of how I fill my spare time</h3>
                    Just a lot of stuff about my pictures
               </div>
+          <!-- Photography end -->
             </div>
            
-            <!-- Application code end -->
+          <!-- Site Content end -->
+        
         </div>
-        <div class="two wide column"></div>
-        <div class="sixteen wide column"></div>
-        <div class="sixteen wide column"></div>
-        <div class="sixteen wide column"></div>
-    </div>
+     </div>
 </body>
